@@ -3,6 +3,7 @@
     "name": "rn-restaurant",
     "slug": "rn-restaurant",
     "version": "1.0.0",
+    "sdkVersion": "49.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -14,11 +15,10 @@
       "fallbackToCacheTimeout": 0,
       "url": "https://u.expo.dev/7cff3ee4-170d-4a1a-800c-f1ab04a307fe"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "io.business.search"
     },
     "android": {
       "adaptiveIcon": {
